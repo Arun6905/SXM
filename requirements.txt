@@ -1,0 +1,15 @@
+streamlit
+fastmcp
+pandas
+requests
+llama-index
+llama-index-embeddings-huggingface
+huggingface-hub
+sentence-transformers
+
+mcpserver:python mcp_server.py
+debug_server:python debug_server.py
+ollama:ollama pull llama3
+ollama run llama3
+python multi_agent_system.py
+streamlit run app.py

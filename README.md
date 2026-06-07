@@ -1,1 +1,29 @@
-# SXM
+Agentic Bug Hunter
+
+A smart debugging system using Multi-Agent + MCP (Model Context Protocol) to detect, fix, and verify bugs in code.
+
+✨ Features
+Detects bugs in Python & C++
+Explains errors clearly
+Generates corrected code
+Verifies fixes automatically
+Export results as CSV
+🛠️ Tech Stack
+Python
+Streamlit
+FastMCP
+Pandas
+
+▶️ How to Run
+pip install -r requirements.txt
+python mcp_server.py
+python debug_server.py
+ollama run llama3
+streamlit run app.py
+
+🧠 How It Works
+User inputs code
+Agent detects bug
+Fix is generated
+Verification agent checks it
+Output is shown + downloadable
